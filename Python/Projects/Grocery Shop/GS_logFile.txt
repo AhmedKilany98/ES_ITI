@@ -1,0 +1,254 @@
+E:\ES_ITI22\03-ELinex\01-Python\02-Labs\Tasks>py Task3.py
+---------- Task3 System for grocery shop ----------
+----------- Wecome To ITI grocery shop -----------
+
+1-Owner
+2-User
+3-Exit
+
+Select Mode:1
+
+Must lenght of UserName and Password not lease than 5 character
+plz Enter UserName:ahmed
+plz Enter Password:12345
+
+
+1-Show Products 
+2-Add Product   
+3-Edit Product  
+4-Delete Product
+5-exit
+
+Enter Selection:4
+Enter Product Id:21
+----- Id does not exist in product -------
+
+
+plz Enter UserName:ahmed
+plz Enter Password:12345
+
+
+1-Show Products 
+2-Add Product   
+3-Edit Product  
+4-Delete Product
+5-exit
+
+Enter Selection:1
+--------------------
+Product Id | Product Name | Product Cost | Product Size
+0            banana         5.3            5
+--------------------
+
+
+plz Enter UserName:ahmmed 
+UserName wrong try again.
+
+
+plz Enter UserName:ahmed
+plz Enter Password:12kld
+password wrong try again.
+plz Enter Password:12345
+
+
+1-Show Products
+2-Add Product
+3-Edit Product
+4-Delete Product
+5-exit
+
+Enter Selection:4
+Enter Product Id:0
+['banana', 5.3, 5]
+----- [Done] Your Produt is Edit -------
+
+
+plz Enter UserName:ahmed
+plz Enter Password:12345
+
+
+1-Show Products
+2-Add Product
+3-Edit Product
+4-Delete Product
+5-exit
+
+Enter Selection:1
+--------------------
+Product Id | Product Name | Product Cost | Product Size
+--------------------
+
+
+plz Enter UserName:1
+UserName wrong try again.
+
+
+plz Enter UserName:ahmed
+plz Enter Password:12345
+
+
+1-Show Products
+2-Add Product
+3-Edit Product
+4-Delete Product
+5-exit
+
+Enter Selection:2
+Enter Product Name:banana
+Enter Product Cost:3.2
+Enter Product Size:4
+----- [Done] Your Produt is added -------
+
+
+plz Enter UserName:ahmed
+plz Enter Password:12345
+
+
+1-Show Products
+2-Add Product
+3-Edit Product
+4-Delete Product
+5-exit
+
+Enter Selection:1
+--------------------
+Product Id | Product Name | Product Cost | Product Size
+881613481    banana         3.2            4
+--------------------
+
+
+plz Enter UserName:ahmed
+plz Enter Password:12345
+
+
+1-Show Products
+2-Add Product
+3-Edit Product
+4-Delete Product
+5-exit
+
+Enter Selection:3
+Enter Product Id:881613481
+Product Name of  881613481 : banana
+Enter Product Cost:t43
+Wrong Plz Enter a Float Positive Number.
+Enter Product Cost:-3
+Wrong Plz Enter a Float Positive Number.
+Enter Product Cost:3.4
+Enter Product Size:-2
+Wrong Plz Enter a Positive Number.
+Enter Product Size:2.4
+Wrong Plz Enter a Positive Number.
+Enter Product Size:2
+----- [Done] Your Produt is Edit -------
+
+
+plz Enter UserName:ahmed
+plz Enter Password:12345
+
+
+1-Show Products
+2-Add Product
+3-Edit Product
+4-Delete Product
+5-exit
+
+Enter Selection:1
+--------------------
+Product Id | Product Name | Product Cost | Product Size
+881613481    banana         3.4            2
+--------------------
+
+
+plz Enter UserName:ahmed
+plz Enter Password:12345
+
+
+1-Show Products
+2-Add Product
+3-Edit Product
+4-Delete Product
+5-exit
+
+Enter Selection:5
+
+1-Owner
+2-User
+3-Exit
+
+Select Mode:2
+
+
+1-Show products
+2-Buy product
+3-print bill
+4-exit
+
+Enter Selection:1
+------------------------------
+Product Id | Product Name | Product Cost | Product Size
+0            banana         5.3            5
+------------------------------
+
+
+1-Show products
+2-Buy product
+3-print bill
+4-exit
+
+Enter Selection:2
+Enter Product id:0
+Enter Mount:6
+it doesn't exist the amount.
+continue (y,n)?y
+Enter Product id:0
+Enter Mount:4
+continue (y,n)?y
+Enter Product id:0
+Enter Mount:3
+it doesn't exist the amount.
+continue (y,n)?y
+Enter Product id:0
+Enter Mount:1
+continue (y,n)?n
+
+
+1-Show products
+2-Buy product
+3-print bill
+4-exit
+
+Enter Selection:1
+------------------------------
+Product Id | Product Name | Product Cost | Product Size
+0            banana         5.3            0
+------------------------------
+
+
+1-Show products
+2-Buy product
+3-print bill
+4-exit
+
+Enter Selection:3
+
+
+ Your Bill Sir.
+----------------------------------------
+Product Name | Product Cost | Product Size
+banana         26.5           5
+Thank You...
+
+
+1-Show products
+2-Buy product
+3-print bill
+4-exit
+
+Enter Selection:4
+
+1-Owner
+2-User
+3-Exit
+
+Select Mode:3
